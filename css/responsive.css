@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px) {
+    .navbar-nav li:hover a:after{ 
+        content: '';
+        position: absolute;
+        background: red;
+        height: 2px;
+        left: 50%;
+        display: block;
+        margin: 0 auto;
+        animation: under_line 0.4s linear forwards;
+        }
+        @keyframes under_line{
+            0%{
+                width: 10%;
+                left: 50%;
+            }
+            50%{
+                width: 50%;
+                left: 25%;
+            }
+            100%{
+                width: 100%;
+                left: 0;
+            }
+        }
+}
+
+
+@media screen and (max-width: 992px) {
+        .navbar-nav li:hover a:after {
+        content: '';
+        position: absolute;
+        background: red;
+        height: 2px;
+        left: 50%;
+        display: block;
+        margin: 0 auto;
+        animation: under_line 0.4s linear forwards;
+    }
+
+    @keyframes under_line {
+        0% {
+            width: 10%;
+            left: 50%;
+        }
+
+        50% {
+            width: 50%;
+            left: 25%;
+        }
+
+        100% {
+            width: 100%;
+            left: 0;
+        }
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
+        box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+        padding: 5px 12px;
+    }
+
+    .map {
+        height: 120%;
+        width: 100%;
+    }
+
+    .box-item {
+        box-shadow: 0 2px 18px 0 rgb(198 198 198 / 30%);
+        line-height: 22px;
+        border-radius: 3px;
+        flex-basis: 100%;
+    }
+
+    .line-h2:after {
+        content: " ";
+        display: block;
+        height: 1px;
+        margin: 7px auto 30px;
+        position: relative;
+        width: 60px;
+        background-color: #f63854;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
+        box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+        padding: 5px 12px;
+    }
+
+    .submit-button {
+        text-align: left;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
+        box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+        padding: 5px 12px;
+    }
+}

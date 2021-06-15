@@ -1,0 +1,17 @@
+.copyright {
+    text-align: center;
+}
+.copyright-content p {
+    line-height: 42px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+.copyright p a {
+    color: #f63854;
+}
+.copyright-content {
+    border-top: 1px solid #d5d4e9;
+    padding: 15px 0;
+    margin: 45px 0 0;
+}

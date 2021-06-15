@@ -1,0 +1,32 @@
+/* features */
+.features {
+    padding: 60px 0;
+}
+
+.text h4 {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+}
+.p-l {
+    font-size: 14px;
+    line-height: 26px;
+}
+.p-r {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* icon */
+.content-left span.icons {
+    order: 2;
+    height: 60px;
+}
+.content-right span.icons {
+    height: 60px;
+}
+.icons {
+    color: #f63854;
+    font-size: 30px;
+}
+/* hover */

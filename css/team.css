@@ -1,0 +1,27 @@
+/* team */
+#the-team {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+.social-icons {
+    padding-top: 11px;
+}
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons i {
+    font-size: 18px;
+}
+/* icon fb */
+.fab.fa-facebook-f {
+    color: #3b5998;
+}
+/* icon twiter */
+.fab.fa-twitter {
+    color: #00aced;
+}
+.fab.fa-instagram {
+    color: #fb3958;
+}
+/* end team */

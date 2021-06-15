@@ -1,0 +1,59 @@
+/* pricing */
+.pricing {
+    padding: 60px 0;
+}
+.table {
+    border-radius: 4px;
+    box-shadow: 0 2px 18px 0 rgba(198,198,198,.3);
+}
+/* icon */
+.table .icon-box {
+    width: 80px;
+    height: 80px;
+    background-color: #ebedef;
+}
+.icon-box i {
+    color: #f63854;
+    line-height: 80px;
+    font-size: 30px;
+}
+/* box active */
+#active-tb {
+    background: #fff;
+    box-shadow: 0 10px 22px 10px rgba(27,38,49,.1);
+}
+#active-tb .icon-box {
+    background: #f63854;
+}
+#active-tb .icon-box i {
+    color: #fff;
+}
+.price-value {
+    font-size: 24px;
+    color: #f63854;
+
+}
+.price-value span {
+    font-size: 15px;
+    color: #abacae;
+}
+.title h3 {
+    font-size: 18px;
+}
+.table .description li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #abacae;
+    padding: 4px 0;
+}
+/* hover */
+.table:hover .icon-box{
+    background-color: #f63854;
+}.table:hover {
+    box-shadow: 1px 20px 20px 20px rgba(198,198,198,.3);
+    transition: all .3s;
+}
+.table:hover .icon-box i{
+    color: #fff;
+}
+/* end pricing */

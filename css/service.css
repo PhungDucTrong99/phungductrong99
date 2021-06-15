@@ -1,0 +1,28 @@
+#service {
+    padding: 60px 0;
+}
+.services-item {
+    box-shadow: 0 2px 18px 0 rgba(198,198,198,.3);
+    color: #f63854;
+}
+.services-item .icon {
+    border: 1px solid rgba(198,198,198,.3);
+    width: 70px;
+    height: 70px;
+}
+.services-item .icon i {
+    font-size: 30px;
+    line-height: 70px;
+}
+/* hover */
+.services-item:hover .icon{
+    color: #fff;
+    background-color: #f63854;
+}
+.services-item:hover {
+    box-shadow: 1px 20px 20px 20px rgba(198,198,198,.3);
+    transition: all .3s;
+}
+a.text-dark.aaa:hover {
+    color: #f63854 !important;
+}
